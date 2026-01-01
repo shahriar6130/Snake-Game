@@ -41,74 +41,13 @@ The game focuses on:
 ---
 
 ## 📂 Project Structure
+<img width="977" height="723" alt="Screenshot 2026-01-01 212321" src="https://github.com/user-attachments/assets/17653429-171b-429b-91cb-881a4095933f" />
+<img width="990" height="222" alt="Screenshot 2026-01-01 212627" src="https://github.com/user-attachments/assets/813b8729-c495-41c9-961a-cc0f2921f4fa" />
 
-SnakeGame/
-│
-├── SnakeGame.cpp  
-    └──(Main game source code)               
-├── SnakeGame.slnx 
-    └──(Visual Studio solution file)
-├── SnakeGame.vcxproj 
-    └──(Visual Studio project file)
-├── SnakeGame.vcxproj.filters  
-    └──(Visual Studio filters)
 
-├── README.md 
-    └── (Project documentation)
-├── .gitignore 
-     └── (Git ignore rules)
-│
-├── audios/
-    └──(Game audio assets)
-│   ├── music.ogg
-           └── (Menu background music)
-│   ├── gameplay.ogg 
-           └──(In-game music)
-│   ├── gameover.ogg 
-           └──(Game over sound)
-│   └── crash.ogg
-           └──(Crash sound effect)
-│
-├── images/ 
-        └──(Game images and textures)
-│   ├── menu_bg.png 
-        └──(Main menu background)
-│   ├── level1_bg.png            
-         └──(Level 1 background)
-│   ├── level2_bg.png 
-         └──(Level 2 background)
-│   ├── level3_bg.png
-         └──(Level 3 background)
-│   ├── wall.png
-         └──(Wall texture)
-│   ├── Apple.png 
-         └──(Normal food sprite)
-│   ├── Bonus.png
-         └──(Bonus food sprite)
-│   ├── bad.png 
-         └──(Shrink / penalty food)
-│   ├── enemy.png 
-         └──(Enemy sprite sheet)
-│   └── gameover_bg.png           
-         └──(Game over background)
-│
-├── fonts/                       
-│   └── snake.ttf 
-         └──(Game font)
-│
-├── txt/  
-                        
-│   ├── highscore.txt  
-          └──(Best score)
-│   └── highscores.txt            
-           └──(Top scores list)
-│
-├── x64/                         
-│   └── Debug/ 
-           └──(Debug binaries and auto-copied assets)                 
-│
-└── .vs/                          
-      └──(Visual Studio cache (ignored by Git))
+
+
+
 
 
 ## Install SFML:
