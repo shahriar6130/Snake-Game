@@ -44,42 +44,71 @@ The game focuses on:
 
 SnakeGame/
 │
-├── SnakeGame.cpp                 Main game source code
-├── SnakeGame.slnx                Visual Studio solution file
-├── SnakeGame.vcxproj             Visual Studio project file
-├── SnakeGame.vcxproj.filters     Visual Studio filters
-├── README.md                     Project documentation
-├── .gitignore                    Git ignore rules
+├── SnakeGame.cpp  
+    └──(Main game source code)               
+├── SnakeGame.slnx 
+    └──(Visual Studio solution file)
+├── SnakeGame.vcxproj 
+    └──(Visual Studio project file)
+├── SnakeGame.vcxproj.filters  
+    └──(Visual Studio filters)
+
+├── README.md 
+    └── (Project documentation)
+├── .gitignore 
+     └── (Git ignore rules)
 │
-├── audios/                       Game audio assets
-│   ├── music.ogg                 Menu background music
-│   ├── gameplay.ogg              In-game music
-│   ├── gameover.ogg              Game over sound
-│   └── crash.ogg                 Crash sound effect
+├── audios/
+    └──(Game audio assets)
+│   ├── music.ogg
+           └── (Menu background music)
+│   ├── gameplay.ogg 
+           └──(In-game music)
+│   ├── gameover.ogg 
+           └──(Game over sound)
+│   └── crash.ogg
+           └──(Crash sound effect)
 │
-├── images/                       Game images and textures
-│   ├── menu_bg.png               Main menu background
-│   ├── level1_bg.png             Level 1 background
-│   ├── level2_bg.png             Level 2 background
-│   ├── level3_bg.png             Level 3 background
-│   ├── wall.png                  Wall texture
-│   ├── Apple.png                 Normal food sprite
-│   ├── Bonus.png                 Bonus food sprite
-│   ├── bad.png                   Shrink / penalty food
-│   ├── enemy.png                 Enemy sprite sheet
-│   └── gameover_bg.png           Game over background
+├── images/ 
+        └──(Game images and textures)
+│   ├── menu_bg.png 
+        └──(Main menu background)
+│   ├── level1_bg.png            
+         └──(Level 1 background)
+│   ├── level2_bg.png 
+         └──(Level 2 background)
+│   ├── level3_bg.png
+         └──(Level 3 background)
+│   ├── wall.png
+         └──(Wall texture)
+│   ├── Apple.png 
+         └──(Normal food sprite)
+│   ├── Bonus.png
+         └──(Bonus food sprite)
+│   ├── bad.png 
+         └──(Shrink / penalty food)
+│   ├── enemy.png 
+         └──(Enemy sprite sheet)
+│   └── gameover_bg.png           
+         └──(Game over background)
 │
-├── fonts/                        Fonts used in the game
-│   └── snake.ttf                 Game font
+├── fonts/                       
+│   └── snake.ttf 
+         └──(Game font)
 │
-├── txt/                          Text-based data files
-│   ├── highscore.txt             Best score
-│   └── highscores.txt            Top scores list
+├── txt/  
+                        
+│   ├── highscore.txt  
+          └──(Best score)
+│   └── highscores.txt            
+           └──(Top scores list)
 │
-├── x64/                          Build output directory (ignored by Git)
-│   └── Debug/                    Debug binaries and auto-copied assets
+├── x64/                         
+│   └── Debug/ 
+           └──(Debug binaries and auto-copied assets)                 
 │
-└── .vs/                          Visual Studio cache (ignored by Git)
+└── .vs/                          
+      └──(Visual Studio cache (ignored by Git))
 
 
 ## Install SFML:
@@ -102,11 +131,17 @@ Windows (Visual Studio)
 ## 🎮 Controls
 
 Arrow Keys → Move the snake
-##P → Pause / Resume
+
+P → Pause / Resume
+
 R → Restart after Game Over
+
 M → Return to Main Menu
+
 F11 → Toggle Fullscreen
+
 V → Toggle VSync (Settings Menu)
+
 ESC / 0 → Back or Exit
 
 ## Important Notes
