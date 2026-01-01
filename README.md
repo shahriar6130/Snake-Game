@@ -1,122 +1,109 @@
+Snake Game (C++ & SFML)
+Project Overview
 
-🎮 Snake Game (C++ & SFML)
+This project is a custom-developed Snake Game implemented in C++ using the SFML (Simple and Fast Multimedia Library) framework. The game features a modern user interface, sound effects, multiple levels, enemy mechanics, bonus food, and interactive menu systems.
 
-🔹 Project Overview
+The project demonstrates core concepts of structured programming, including game loops, event handling, file input/output, collision detection, and multimedia integration in C++.
 
-This is a custom-developed **Snake Game** built using **C++** and the
-**SFML (Simple and Fast Multimedia Library)** framework.  
-The game features a modern UI, sound effects, multiple levels, enemy
-mechanics, bonus food, and interactive menus.
+Course: Structured Programming
+Semester: 1st Year, 2nd Semester
+Submitted by: Shahriar Islam
 
-The project demonstrates core concepts of **structured programming**,
-game loops, event handling, file I/O, and multimedia integration in C++.
+Project Structure and Assets
+SnakeGame/
+│
+├── SnakeGame.cpp                 Main game source code
+├── SnakeGame.slnx                Visual Studio solution file
+├── SnakeGame.vcxproj             Visual Studio project file
+├── SnakeGame.vcxproj.filters     Visual Studio filters
+├── README.md                     Project documentation
+├── .gitignore                    Git ignore rules
+│
+├── audios/                       Game audio assets
+│   ├── music.ogg                 Menu music
+│   ├── gameplay.ogg              In-game music
+│   ├── gameover.ogg              Game over sound
+│   └── crash.ogg                 Crash sound effect
+│
+├── images/                       Game images and textures
+│   ├── menu_bg.png               Main menu background
+│   ├── level1_bg.png             Level 1 background
+│   ├── level2_bg.png             Level 2 background
+│   ├── level3_bg.png             Level 3 background
+│   ├── wall.png                  Wall texture
+│   ├── Apple.png                 Normal food
+│   ├── Bonus.png                 Bonus food
+│   ├── bad.png                   Shrink / penalty food
+│   ├── enemy.png                 Enemy sprite sheet
+│   └── gameover_bg.png           Game over background
+│
+├── fonts/                        Fonts used in the game
+│   └── snake.ttf                 Game font
+│
+├── txt/                          Text-based data files
+│   ├── highscore.txt             Best score
+│   └── highscores.txt            Top score list
+│
+├── x64/                          Build output (ignored by Git)
+│   └── Debug/                    Debug binaries and copied assets
+│
+└── .vs/                          Visual Studio cache (ignored by Git)
 
-🔹 Course       : Structured Programming  
-🔹 Semester     : 1st Year, 2nd Semester  
-🔹 Submitted by : Shahriar Islam  
-🔹 Roll         : 61  
+Build and Run Instructions:
+Requirements-
+1.C++17 or later
+2.SFML 2.5 or 2.6
+3.Supported platforms: Windows and Linux
 
-📁 Project Structure & Assets
+Linux (Ubuntu / Debian)
 
-Source Code:
-- SnakeGame.cpp          → Main game logic and mechanics
-
-Images:
-- menu_bg.png            → Main menu background
-- level1_bg.png          → Level 1 background
-- level2_bg.png          → Level 2 background
-- level3_bg.png          → Level 3 background
-- gameover_bg.png        → Game Over background
-- Apple.png              → Food sprite
-- Bonus.png              → Bonus food sprite
-- bad.png                → Negative / shrink food
-- wall.png               → Wall texture
-- enemy.png              → Enemy sprite sheet
-
-Audio:
-- music.ogg              → Menu background music
-- gameplay.ogg           → In-game music
-- gameover.ogg           → Game over sound
-- crash.ogg              → Crash sound effect
-
-Fonts:
-- snake.ttf              → Game font
-
-Data Files:
-- txt/highscore.txt      → Stores highest score
-- txt/highscores.txt     → Stores top scores list
-
-
-🛠️ How to Build & Run
-
-🔹 Requirements
-- C++17 or later
-- SFML 2.5 or 2.6
-- Windows / Linux supported
-
-🔹 Linux (Ubuntu/Debian):
-```bash
+Install SFML:
 sudo apt update
 sudo apt install libsfml-dev
 
-🔹 Compile (Linux):
+Compile:
 g++ SnakeGame.cpp -o SnakeGame \
     -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
-🔹 Run:
+
+Run:
 ./SnakeGame
 
-🔹 Windows (Visual Studio):
+Windows (Visual Studio)
+1.Install SFML and configure it in Visual Studio
+2.Link required SFML libraries
+3.Set the Working Directory to $(TargetDir)
+4.Asset files are copied automatically using post-build events
 
-   Install SFML
+Controls
+ 1.Arrow Keys: Move the snake
 
-   Link SFML libraries
+   P: Pause / Resume
+   R: Restart after Game Over
+   M: Return to Main Menu
+   F11: Toggle Fullscreen
+   V: Toggle VSync (Settings menu)
+   ESC / 0: Back or Exit
 
-   Set Working Directory to $(TargetDir)
+Important Notes
+Do not rename or move asset files.
+The following directories must remain in the project root:
+audios/, images/, fonts/, txt/
+File names are case-sensitive on Linux.
+Ensure the working directory is correctly set before running the game.
 
-   Assets are copied automatically via Post-Build events
+Features
 
-🎮 Controls
+Multiple levels with unique backgrounds
+Enemy AI with animated sprites
+Bonus food and score multipliers
+Screen shake and particle effects
+Pause menu with blur effect
+Settings menu (Volume, VSync, Fullscreen)
+High score saving system
 
-   Arrow Keys → Move snake
+Contact Information
 
-   P → Pause / Resume
-
-   R → Restart after Game Over
-
-   M → Return to Main Menu
-
-   F11 → Toggle Fullscreen
-
-   V → Toggle VSync (Settings menu)
-
-   ESC / 0 → Back / Exit
-
-⚠️ Important Notes
-
-   Do NOT rename or move asset files.
-
-   Folder structure must remain intact:
-   audios/, images/, fonts/, txt/
-
-   File names are case-sensitive on Linux.
-
-   Ensure the working directory is set correctly when running the game.
-
-
-✨ Features
-
-✔ Multiple levels with unique backgrounds
-✔ Enemy AI with animation
-✔ Bonus food & score multipliers
-✔ Screen shake & particle effects
-✔ Pause menu with blur effect
-✔ Settings menu (Volume, VSync, Fullscreen)
-✔ High score saving system
-
-====================================================
-📩 Contact
-
-Name : Shahriar Islam
-University : University of Dhaka
-Email : shahriar-2023216004@cs.du.ac.bd
+Name: Shahriar Islam
+University: University of Dhaka
+Email: shahriar-2023216004@cs.du.ac.bd
