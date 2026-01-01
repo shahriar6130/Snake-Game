@@ -92,5 +92,7 @@ Ensure the working directory is correctly set before running the game.
 
 ## Contact Information
 Name: Shahriar Islam
+
 University: University of Dhaka
+
 Email: shahriar-2023216004@cs.du.ac.bd
